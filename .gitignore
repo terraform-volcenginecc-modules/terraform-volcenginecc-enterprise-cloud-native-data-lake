@@ -1,0 +1,20 @@
+.terraform/
+.terraform.lock.hcl
+.idea/
+.screenshots/
+.DS_Store
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+# Reviewed, non-sensitive terraform.tfvars is part of the delivered template.
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+crash.log
+crash.*.log
+.env
+*.pem
+*.key
+__pycache__/
+.venv/
